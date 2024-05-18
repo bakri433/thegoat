@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* small */
+
+body{
+    background-image: url(1600w-drvq3zaYl2E.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@media(max-width:767px) {
+    header{
+        position: relative;
+    }
+}
+@media(min-width:1200px){
+    h1{
+        font-size: 100px;
+    }
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(26, 23, 48, .5);
+background-color: wheat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:767px){
+    h1{
+        font-size: 50px;
+    }
+}
+
+h1{
+ 
+    font-family: fantasy;
+    color: transparent;
+    background: url(vecteezy_gradient-pick-color-for-background-social-media-post-or_6832439.jpg);
+    -webkit-background-clip: text;
+    background-size: cover;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+.content{
+    direction: rtl;
+
+}
+h2{
+    position: relative;
+    top: 34px;
+    padding-right: 10px;
+    font-size: 35px;
+    
+}
+p{
+    position: relative;
+    top: 34px;
+    padding-right: 10px;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+@media(max-width:767px){
+    footer{
+        width: 100%;
+    }
+}
+footer{
+    position: relative;
+    height: 200px;
+    top: 200px;
+    background-color: #ddd;
+    box-shadow: 0 0 10px rgba(26, 23, 48, .5);
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: math;
+
+    position: relative;
+}
+.second img{
+    display: flex;
+    position: relative;
+    top: 34px;
+    /* display: inline-block; */
+    justify-content: center;
+    right: 50%;
+    transform: translateX(36%);
+    width: 278px;
+}
+.foot{
+    text-align: center;
+   
+}
+.text{
+    position: relative ;    
+    padding-top: 22px;
+   
+}
+h4{
+    position:relative;
+    top: 50px;
+    font-size: 29px;
+    direction: rtl;
+}
+.imgbarca{
+    position: relative;
+display: flex;
+top: 100px;
+justify-content: center;
+z-index:2;
+transition: 0.3s;
+
+}
+.imgbarca img{
+    transition: 0.3s;
+}
+.lu{
+    line-height: 3;
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    top: 110px;
+  
+}
+
+.imgbarca img:hover{
+width: 200px;
+}
+
+.imgparis{
+    position: relative;
+    display: flex;
+    top: 100px;
+    justify-content: center;
+    z-index:2;
+    transition:0.3s;
+}
+
+.imgparis img{
+    transition: 0.3s;
+}
+.imgparis img:hover{
+    width: 250px;
+}
+.imgargentina{
+    position: relative;
+    display: flex;
+    top: 120px;
+    justify-content: center;
+    z-index:2;
+    transition:0.3s;
+}
+.imgargentina img:hover{
+width: 220px;
+}
+.imgargentina img{
+    transition: 0.3s;
+}
+.tent{
+    top: 130px;
+    position: relative;
+   
+    direction: rtl;
+    justify-content: center;
+}
+.tent h4{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.tent p{
+    top: 70px;
+    text-align: center;
+}
